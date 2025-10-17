@@ -131,7 +131,16 @@ body {
       max-width: 300px;
       height: fit-content;
     }
-
+    .title{
+      background-color: #1b1b1b;
+      color:white;
+      width:100%;
+      height:fit-content;
+      padding: 10px;
+      text-align: center;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
     .homeItem img{
       width: 200;
       height: 150px;
@@ -192,3 +201,18 @@ body {
     border-width: 6px;
     border-color: #333;
    }
+ .blogContainer {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      gap: 10px; 
+    }
+    .blogItem{
+      background-color: #1b1b1b;
+      color: white;
+      padding:75px;
+      width:130%;
+      max-width: 450px;
+      height: fit-content;
+      margin-left: 26%;
+    }
